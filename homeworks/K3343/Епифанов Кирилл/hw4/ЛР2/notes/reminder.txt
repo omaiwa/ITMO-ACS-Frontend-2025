@@ -1,0 +1,11 @@
+Json server auth guide
+
+install node 22.22.22
+
+npm install json-server@0.17.4 json-server-auth
+install locally
+
+run via 
+npx json-server db.json -m ./node_modules/json-server-auth
+
+and all should be well

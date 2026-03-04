@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="js/init.js"></script>
+    <script defer src="js/search.js"></script>
+</head>
+
+<body>
+
+    <header class="header" id="header"></header>
+
+    <div class="container">
+
+        <h2>Search</h2>
+
+        <select id="typeFilter" onchange="filterSearch()">
+            <option value="">All types</option>
+            <option value="apartment">Apartment</option>
+            <option value="house">House</option>
+        </select>
+
+        <select id="locationFilter" onchange="filterSearch()">
+            <option value="">All locations</option>
+            <option value="england">England</option>
+            <option value="wales">Wales</option>
+            <option value="scotland">Scotland</option>
+        </select>
+
+        <input type="number" id="maxPriceFilter" placeholder="Max price" oninput="filterSearch()">
+
+        <div id="results" class="grid"></div>
+
+    </div>
+
+</body>
+
+</html>

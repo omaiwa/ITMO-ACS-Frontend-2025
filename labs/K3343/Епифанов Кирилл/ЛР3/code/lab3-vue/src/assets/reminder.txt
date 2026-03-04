@@ -1,0 +1,20 @@
+For the app to work via vue you need two seperate consoles.
+
+In terminal 2 navigate to \FRONTEND-25-26-S1\vue-project1> for the vue project and start via
+npm start
+
+Then go to link in vue console (http://localhost:8080/)
+
+
+
+Json server auth guide
+
+install node 22.22.22
+
+npm install json-server@0.17.4 json-server-auth
+install locally
+
+run via 
+npx json-server db.json -m ./node_modules/json-server-auth
+
+and all should be well

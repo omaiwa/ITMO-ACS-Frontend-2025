@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "email": "mail@mail.com",
+      "password": "$2a$10$XEGpxAK6strSP0CKBqueSuInxHpDJPQSv7k.jd9H3yFOqRXSV8yMS",
+      "firstName": "Ben",
+      "lastName": "Dover",
+      "id": 1
+    },
+    {
+      "email": "lee@mail.com",
+      "password": "$2a$10$kwTcRL.9Ni8LfdyZCLxVyO1uNPBTegF/6IPcFVIXyDIYUuESUky8i",
+      "firstName": "Lee",
+      "lastName": "Madden",
+      "id": 2
+    },
+    {
+      "email": "roy@mail.com",
+      "password": "$2a$10$Hwmw35a./Ox239seBFdPO..j9HKcYL1owI1XfhllQjm1buAZQ2hDK",
+      "firstName": "Ray",
+      "lastName": "Boone",
+      "id": 3
+    },
+    {
+      "email": "max@mail.com",
+      "password": "$2a$10$DScOjMQquv7BsaY9QQ5ea.NVYS0Zv7XTtu//hWohnyy4L4vdmdgW.",
+      "firstName": "max",
+      "lastName": "raxx",
+      "id": 4
+    },
+    {
+      "email": "ree@mail.com",
+      "password": "$2a$10$oeCmWf8ACe1vhKmFMTiGbOtNu8TyzMW2wcOHVNm0RxQLc6rE0TgKK",
+      "firstName": "orley",
+      "lastName": "hartt",
+      "id": 5
+    },
+    {
+      "email": "zee@mail.com",
+      "password": "$2a$10$eMtHQuti6ytu6sWRyaEWnOQr2XJAIlXjnt4vTiSUb49JsVv66U/sy",
+      "firstName": "zee",
+      "lastName": "zee",
+      "id": 6
+    },
+    {
+      "email": "1@mail.com",
+      "password": "$2a$10$tAOvNoXciRaFAJT3L4pZGekw3sQ0Y7tTl1kEoo3Sc1DW6Ch.2FElO",
+      "firstName": "max",
+      "lastName": "sux",
+      "id": 7
+    }
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "name": "Distant Cottage",
+      "type": "house",
+      "location": "wales",
+      "price": 700,
+      "img": "@/assets/pid1.jpg",
+      "description": "A cozy cottage located in the serene countryside of Wales, perfect for a peaceful retreat."
+    },
+    {
+      "id": 2,
+      "name": "Urban Apartment",
+      "type": "apartment",
+      "location": "england",
+      "price": 2400,
+      "img": "https://picsum.photos/id/274/460/250?2",
+      "description": "A modern apartment in the heart of London, offering stunning city views."
+    },
+    {
+      "id": 3,
+      "name": "Beachside Villa",
+      "type": "house",
+      "location": "scotland",
+      "price": 3500,
+      "img": "https://picsum.photos/id/13/460/250?2",
+      "description": "A luxurious villa located right on the beach, perfect for a summer getaway."
+    },
+    {
+      "id": 4,
+      "name": "Ghastly Ghetto",
+      "type": "apartment",
+      "location": "england",
+      "price": 300,
+      "img": "https://picsum.photos/id/181/460/250?2",
+      "description": "A bed and a toilet."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "title": "test_1"
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "title": "test_1"
+    }
+  ]
+}

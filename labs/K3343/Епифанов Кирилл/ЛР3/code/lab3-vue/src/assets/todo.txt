@@ -1,0 +1,41 @@
+[x] designate components
+
+[x]Home
+    [x] port html
+    [x] port dependencies
+    [x] check logic
+    [x] get api/properties.js working
+
+[x]Property
+    [x] port html
+    [x] port chat
+    [x] port dependencies
+    [x] check logic
+
+[x]Login
+    [x] port html
+    [x] port dependencies
+    [x] check logic
+    [x] store user better?
+    [x] update user for history
+
+[x]Register
+    [x] port html
+    [x] port dependencies
+    [x] check logic
+
+[x]Profile
+    [x] port html
+    [x] port dependencies
+    [x] check logic
+
+[] Debug/refine
+    [] add some layouts?
+    [] move search filters to seperate component
+    [x] make header refresh after login
+    [x] make dark mode button acessible by keyboard tab
+    [] fix stores/properties/getRented, getAvailable
+    [] remove unnecesssary localStorage mentions
+    [x] add composables
+    [x] fix ugly cards
+    [x] remove unnecesssary server calls
