@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/profile.js"></script>
+    <script defer src="js/history.js"></script>
+    <script defer src="js/init.js"></script>
+    <script src="js/auth.js"></script>
+    <title>User Profile</title>
+</head>
+<body>
+
+<div class="header" id="header"></div>
+
+<div class="container">
+    <h2 id="userEmail"></h2>
+    <button onclick="logout()">Logout</button>
+    <button onclick="showHistory()">History</button>
+    <h3>History</h3>
+    <div id="historyContainer"></div>
+    <h3>Rented Properties</h3>
+    <div id="rentedProperties" class="grid"></div>
+
+    <h3>Available Properties</h3>
+    <div id="availableProperties" class="grid"></div>
+</div>
+
+</body>
+</html>

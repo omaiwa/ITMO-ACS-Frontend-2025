@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/main.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/chat.js"></script>
+<script defer src="js/history.js"></script>
+<script defer src="js/property.js"></script>
+<script defer src="js/init.js"></script>
+</head>
+
+<div id="chatOverlay" class="chat-overlay" style="display:none;">
+    <div class="chat-window">
+        <div class="chat-header">
+            <span id="chatPropertyTitle">Property Chat</span>
+            <button onclick="closeChat()">X</button>
+        </div>
+
+        <div id="chatMessages" class="chat-messages"></div>
+
+        <div class="chat-input">
+            <input type="text" id="chatInput" placeholder="Write a message..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</div>
+
+<body>
+
+<div class="header" id="header"></div>
+
+<div class="container" id="container"></div>
+
+</body>
+</html>
